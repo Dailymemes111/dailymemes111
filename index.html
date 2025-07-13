@@ -92,10 +92,12 @@
       <div class="col-12">
         <div class="card-wrapper">
           <div class="row">
+            <!-- Nuotrauka - dešinėje -->
             <div class="col-12 col-md-12 col-lg-6 image-wrapper">
               <img class="w-100" src="assets/images/revised205-512x800.png" alt="Mobirise Website Builder">
             </div>
-            <div class="col-12 col-lg col-md-12">
+            <!-- Tekstas - kairėje -->
+            <div class="col-12 col-lg col-md-12 text-left-wrapper">
               <div class="text-wrapper align-left">
                 <h5 class="mbr-section-title mbr-fonts-style mb-4 display-2"><strong>E-book - ''I Had No Plan. I Had An Idea.''</strong></h5>
                 <p class="price mbr-fonts-style mb-4 display-7">
@@ -112,6 +114,31 @@
     </div>
   </div>
 </section>
+
+<style>
+  /* Nuotrauka - dešinėje */
+  .image-wrapper {
+    text-align: right;
+  }
+
+  /* Tekstas - kairėje */
+  .text-left-wrapper {
+    text-align: left;
+  }
+
+  /* Lanksti eilutė, kad elementai būtų tinkamai išdėstyti */
+  .row {
+    display: flex;
+    align-items: center;
+  }
+
+  .card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+</style>
+
 
 
 
